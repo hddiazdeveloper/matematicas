@@ -1,0 +1,23 @@
+{
+  "name": "udec",
+  "version": "0.8.2",
+  "description": "web-page for math 3 asignature",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gh-pages"
+  },
+  "keywords": [
+    "matematicas",
+    "pagina-web",
+    "universidad",
+    "de",
+    "cundinamarca",
+    "calculo-3"
+  ],
+  "author": "Dario Diaz",
+  "license": "MIT"
+}

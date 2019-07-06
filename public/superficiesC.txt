@@ -1,0 +1,17 @@
+
+
+
+
+
+
+#EF008C   (rosadito)
+#00AEEF   (azul clarito)
+#5930AD   (morado)
+#FF9A00  (naranja)
+#CA2A51 (rojito)
+
+
+
+
+COMANDOS GIT
+git config --global alias.micomando"log --"

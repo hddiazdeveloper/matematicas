@@ -1,0 +1,36 @@
+
+.body h1{
+	font-size: 35px;
+}
+.titulop {
+    font-size: 20px;
+}
+.references h2{
+	font-size: 25px;
+}
+.references h4, .references li{
+	font-size: 15px;
+}
+/*   ESTILO PARA EL MENU*/
+menu{
+	margin:0 auto;
+	margin-bottom:20px;
+	text-align: center;
+	align-content: center;
+	padding:0px;
+	display:inline-block;
+	width:100%;
+	
+}
+.menu div{
+	border:#0E0E0E 2px solid;
+	float:left;
+	width:32.5%;
+	height:33px;
+	text-align:center;
+	border-radius:10%;
+	font-size: 13px;
+}
+.body .little{
+	width: 28%;
+}
