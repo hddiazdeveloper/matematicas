@@ -29,6 +29,9 @@ figure img{
 	width:100%;
 	height: 200px;
 }
+.menubtn{
+	display: none;
+}
 .home{
 	position:absolute;
 	cursor:pointer;
@@ -89,19 +92,22 @@ menu{
 	width:62%;
 	float:left;
 }
+.top{
+		height:90px;
+		border-bottom: 2px solid #dcdc;
+	}
 .body h1{
 	display:inline-block;
 	margin:0px;
 	padding:0px;
 	color:#ffffff;
 	text-align:center;
-	font-size:40px;
+	font-size:36px;
 	width:100%;
 	margin:0px auto;
     text-shadow: 1px 1px 4px;
 }
 .body p{
-	margin:20px;
 	padding:5%;
 	text-shadow: 1px 1px 11px;
 	/*border:#EE4470 3px solid;*/
@@ -109,9 +115,9 @@ menu{
 	border-radius:2%;
 	background-color:#C0C1C1;
 	font-size:16px;
-	margin-bottom:5px;
 	font-family: cursive;
 	box-shadow: 9px 7px 20px #690426b8;
+	text-align: center;
 }
 *::selection{
 	color: #d28411;
@@ -126,7 +132,6 @@ menu{
 	border:#6C6E6E 2px solid;
 	border-radius:10%;
 	width:50%;
-	margin-left: 22%;
 	box-shadow: 4px 4px 30px;
 }
 .body .little{
@@ -154,24 +159,35 @@ menu{
 	border: #0E0E0E 2px solid;
     box-shadow: 2px 2px 25px #d2841152;
 	border-radius:4%;
-	margin:6px;
+	margin:20px 2px;
 	padding:inherit;
 }
 .references li{
+	font-size: 20px;
 	margin: 10px 0px;
+	padding: 10px 25px;
+	border-top: 1px #ffffff solid;
+	padding-bottom: 0;
 }
-.references h2{
+.references h2, .references h5{
 	color:#ffffff;
 	text-align:center;
 	margin:0px auto;
-    text-shadow: 1px 1px 3px;
-}
+    text-shadow: 1px 1px 3px;}
+
 .references img{
-	width:60%;
-	height: 20px;
+	width:90%;
+	height: 30px;
 }
 video{
 	width:95%;
+	border: #000 2px solid;
+	border-radius: 5%;
+	margin: 5px 0px;
+}
+iframe{
+	width:95%;
+	height: 50%;
 	border: #000 2px solid;
 	border-radius: 5%;
 	margin: 5px 0px;
@@ -203,4 +219,512 @@ video{
 	position: relative;
 	top: 12%;
 	left: 5%;
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/* MEDIA QUERYZ   PARA LONGS PC*/
+@media screen and (max-width:1460px){
+	.references h5{
+		font-size: 20px;
+	}
+
+	.references h4{
+		margin: 15px;
+	}
+	.footer img{
+		top: -22%;
+
+	}
+	.footer cite{
+		top: 33%;
+		left: 5%;
+	}
+}
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/* MEDIA QUERY   PARA PC*/
+@media screen and (max-width:950px){
+	body{
+		margin:0px;
+		padding:0px;
+		/*
+		background:gray;
+		background:#183f46;  #1e4248(para el body)
+		videos ejemplos   #58031f(para el menu y video y bordes del parrafo        */	
+	}
+	.container{
+		padding:0px;
+		margin:auto;
+		width:auto;
+	}
+	figure{
+		margin:0px;
+		padding:0px;
+		display:inline-block;
+		width:100%;
+		height:100%;
+	}
+	figure img{
+	    width:100%;
+	    height: 200px;
+	}
+
+	/*   ESTILO PARA EL MENU*/
+	menu{
+		margin:0 auto;
+		padding:inherit;
+		width:100%;
+		margin-bottom:20px;	
+	}
+	.menu div{
+		border:#0E0E0E 2px solid;
+		float:left;
+		width:32.8%;
+		height:34px;
+		text-align:center;
+		border-radius:10%;
+	}
+	.menu div:hover{
+		background-color:black;
+		border:#C0C1C1 2px solid;
+		color:#ffffff;
+		float:left;
+		border-radius:10%;
+		transform:scale(1.01);
+		transition:1.3s;
+	}
+	/*    ESTILO PARA EL CUERPO DEL DOCUMENTO */
+	.body{
+		margin:0px 3%;
+		width:60%;
+
+		float:left;
+	}
+	.titulop{
+		font-size: 30px;
+	}
+	.body h1{
+		display:inline-block;
+		margin:0px;
+		padding:0px;
+		color:#ffffff;
+		text-align:center;
+		width:100%;
+		margin:0px auto;
+	}
+	.body p{
+		padding:10%;
+		border-radius:2%;
+		background-color:#C0C1C1;
+		font-size:12px;
+		margin-top:20px;
+	}
+	.body img{
+		padding:2px;
+		border:#6C6E6E 2px solid;
+		border-radius:10%;
+		width:60%;
+		margin:auto 3%;
+	}
+	.body .little{
+		padding:2px;
+		border:#6C6E6E 2px solid;
+		border-radius:10%;
+		margin:1%;
+		text-align:center;
+	}
+
+	.references{
+		width:28%;
+		float:left;
+		border-bottom:#ffffff 1px solid;
+		text-align: center;
+	}
+	.references li,.references h5{
+		font-size: 15px;
+	}
+	.references h4{
+		margin: 10px;
+	}
+	.references h2{
+		color:#ffffff;
+		text-align:center;
+		margin:0px auto;
+	}
+	iframe{
+		height:90px;
+	}
+	.footer{
+		height: 100%;
+	}
+	.footer cite{
+		top:25px;
+	}
+	.footer img{
+		width: 45px;
+		height: 60px;
+		top: -30px;
+	}
+
+	/*    ESTILO PARA EL PIE */
+
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+/* MEDIA QUERY2   PARA SHORT PC*/
+@media screen and (max-width:808px){
+
+	.body h1{
+		font-size: 30px;
+	}
+	.titulop {
+	    font-size: 20px;
+	}
+	.references h2{
+		font-size: 25px;
+	}
+	.references h5{
+		font-size: 12px;
+	}
+	.references h4, .references li{
+		font-size: 13px;
+	}
+	.references li{
+		padding: 10px 10px;
+	}
+	/*   ESTILO PARA EL MENU*/
+	menu{
+		margin:0 auto;
+		margin-bottom:20px;
+		text-align: center;
+		align-content: center;
+		padding:0px;
+		display:inline-block;
+		width:100%;
+		
+	}
+	.menu div{
+		border:#0E0E0E 2px solid;
+		float:left;
+		width:32.5%;
+		height:33px;
+		text-align:center;
+		border-radius:10%;
+		font-size: 13px;
+	}
+	.body .little{
+		width: 28%;
+	}
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* MEDIA QUERY3   PARA TABLETS*/
+@media screen and (max-width:600px){
+	menu{
+		height: 90px;
+		margin-bottom:10px;
+	}
+	.menu div{
+	    font-size: 10px;
+	    width:32.2%;
+	    height: 26px;
+	}
+
+	.titulop{
+		font-size: 15px;
+	}
+	.top{
+		height: 60px;
+	}
+	.body h1{
+	    font-size: 20px;
+	}
+	.body .little{
+		width: 44%;
+
+	}
+	.references{
+		width:28%;
+		float:left;
+		border-bottom:#ffffff 1px solid;
+		text-align: center;
+		font-size:25px;
+	}
+	.references ul{
+		list-style: none;
+		background:#690426 ;
+		border: #0E0E0E 2px solid;
+		border-radius:3%;
+		margin:20px 2px;
+	    font-size: 10px;
+	}
+	.references h2{
+	    font-size: 17px;
+	}
+	.references h4{
+	    font-size: 12px;
+	}
+	.references h5{
+	    font-size: 10px;
+	}
+	.references li{
+		margin: 0;
+		font-size: 11px;
+	}
+	video{
+		width:90%;
+		border: #000 2px solid;
+		border-radius: 5%;
+		margin: 5px 0px;
+	}
+	iframe{
+		width:90%;
+		border: #000 2px solid;
+		border-radius: 5%;
+		margin: 5px 0px;
+		height: 60px;
+	}
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+/* MEDIA QUERY4   PARA SMARTH PHONES
+@media screen and (max-width:460px){
+	.home{
+		width:25px;
+		height:25px;
+		border-radius:3px;
+		opacity:.7;
+	}
+	header{
+		width: 100%;
+		height: 120px;
+	}
+	figure img{
+		margin:0px;
+		padding:0px;
+	}
+	.header img{
+		width:100%;
+		height:120px;
+	}
+	menu{
+		height: 72px;
+	}
+	.menu div{
+		margin:0px;
+		font-size:8px;
+		width:32%;
+		height: 20px;
+		border:#0E0E0E 2px solid;
+	}
+	.body p{
+		font-size:8px;
+		padding:20px;
+		border:#690426 1.8px solid;
+	}
+	.body h1{
+		font-size:17px;
+		margin: 0px 3%;
+	}
+	.body .little{
+		width:42%;
+		border:#6C6E6E 1px solid;
+	}
+	.body img{
+		border:#6C6E6E 1px solid;
+	}
+	.references h4{
+		font-size:10px;
+	}
+	.references ul{
+		border: #000 1px solid;
+	}
+	.references li{
+		font-size:9px;
+		margin:0px;
+	}
+	video{
+		width:80%;
+		height: 60px;
+	}
+	iframe{
+		width:80%;
+		height: 60px;
+	}
+	.footer{
+		clear:both;
+		color:#ffffff;
+		font-size:6px;
+		border-top: #690426 2px solid;
+		width: auto;
+		height: 55px;
+	}
+	.footer img{
+		display: inline-block;
+		width:30px;
+		height:40px;
+		margin-left: 85%;
+		position: relative;
+		top: -22%;
+	}
+	.footer cite{
+		display: inline-block;
+		width: fit-content;
+		position: relative;
+		top: 33%;
+		left: 5%;
+	}
+}                    */
+
+@media screen and (max-width:460px){
+	.menubtn{
+		cursor: pointer;
+		display: inline-block;
+		width: 25px;
+		position: fixed;
+		top: 3px;
+		left: 6px;
+		z-index: 3;
+	}
+	.home{
+		position: fixed;
+		width: 25px;
+		height: 25px;
+		left: 90%;
+		top: 3px;
+		z-index: 3;
+	}
+	header{
+		width: 100%;
+		height: 120px;
+	}
+	figure img{
+		margin:0px;
+		padding:0px;
+	}
+	.header img{
+		width:100%;
+		height:120px;
+	}
+	menu{
+		display: flex;
+    	align-items: center;
+    	height: auto;
+    	margin-bottom: 0;
+	}
+	nav{
+		width: 100%;
+	    position: fixed;
+	    left: -105%;
+	    top: 0;
+	    bottom: 0;
+	    right: 0;
+	    display: flex;
+	    align-items: center;
+	    transition: .34s;
+	    z-index: 2;
+	    background: -webkit-linear-gradient(left,#1e4248 0%,#1e4248 60%,#335156 100%);
+	}
+	.active{
+		left: 0;	
+	}
+	.menu div:first-child{
+	    border-top: 1px #929292 solid;
+	}
+	.menu div{
+		width: 100%;
+	    color: #e81b59;
+	    text-align: justify;
+	    font-size: 12px;
+	    border: none;
+	    border-radius: initial;
+	    box-shadow: none;
+	    border-bottom: 1px #929292 solid;
+	    padding: 5px;
+	    height: 35px;
+	    background: -webkit-linear-gradient(left,#12282b 0%,#1e4046 60%,#324f54 100%);
+	}
+	.top {
+	    height: 45px;
+	    margin-top: 20px;
+	}
+	.body p{
+		font-size:8px;
+		padding:20px;
+		border:#690426 1.8px solid;
+	}
+	.body h1{
+		font-size:17px;
+		margin: 0px 3%;
+	}
+	.body .little{
+		width:42%;
+		border:#6C6E6E 1px solid;
+	}
+	.body img{
+		border:#6C6E6E 1px solid;
+	}
+	.references h4{
+		font-size:10px;
+	}
+	.references ul{
+		border: #000 1px solid;
+	}
+	.references li{
+		font-size:9px;
+		margin:0px;
+	}
+	video{
+		width:80%;
+		height: 60px;
+	}
+	iframe{
+		width:80%;
+		height: 60px;
+	}
+	.footer{
+		clear:both;
+		color:#ffffff;
+		font-size:6px;
+		border-top: #690426 2px solid;
+		width: auto;
+		height: 55px;
+	}
+	.footer img{
+		display: inline-block;
+		width:30px;
+		height:40px;
+		margin-left: 85%;
+		position: relative;
+		top: -22%;
+	}
+	.footer cite{
+		display: inline-block;
+		width: fit-content;
+		position: relative;
+		top: 33%;
+		left: 5%;
+	}
 }
