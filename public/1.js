@@ -48,6 +48,16 @@
 		var $nav=document.getElementById('nav')
 		$nav.classList.add('active')
 	})
+
+
+
+
+
+	var $helpbtn=document.getElementById('helpbtn').addEventListener('click',function(){
+		var $references=document.getElementById('references')
+		$references.classList.toggle('active2')
+		console.log($references.classList)
+	})
 function show(who)
 {
  	/*list=[33,31,29,44,39,40,49,27,18]*/
@@ -102,8 +112,9 @@ function show(who)
 		
 		//PARA LAS REFERENCIAS
 		references.innerHTML="<div class='top'><h2>Actividades y Ejemplos</h2></div>"+
-		"<ul><h4>EJEMPLOS</h4><li><h5>Reconociendo patrones de superficies</h5><video src='resources/1/v.mp4' controls='controls'></video></li>"+
-		"<li><iframe width='560' height='315' src='https://www.youtube.com/embed/fQ-BPdkoSMw' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></li></ul>"+
+		"<ul><h4>EJEMPLOS</h4><li><h5>Reconociendo patrones de superficies</h5><iframe width='560' height='315' src='https://www.youtube.com/embed/SbOw4eiBF6I' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></li>"+
+		"<li><iframe width='560' height='315' src='https://www.youtube.com/embed/849ryoz3LaU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></li>"+
+		"<li><iframe width='560' height='315' src='https://www.youtube.com/embed/_d1SyjVGVpk' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></li></ul>"+
 		
 		"<ul><h4>ACTIVIDAD</h4><li><h5>1</h5><img src='resources/1/1/01.png'></li>"+
 		"<li><h5>2</h5><img src='resources/1/1/02.png'></li><li><h5>3</h5><img src='resources/1/1/03.png'></li></ul>"+
@@ -175,8 +186,9 @@ function show(who)
 
 		//PARA LAS REFERENCIAS
 		references.innerHTML="<div class='top'><h2>Actividades y Ejemplos</h2></div>"+
-		"<ul><h4>EJEMPLOS</h4><li><h5>Dominio y Limites de una Funcion Vectorial</h5><video src='resources/1/v.mp4' controls='controls'></video></li>"+
-		"<li><iframe width='560' height='315' src='https://www.youtube.com/embed/fQ-BPdkoSMw' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></li></ul>"+
+		"<ul><h4>EJEMPLOS</h4><li><h5>Reconociendo patrones de superficies</h5><iframe width='560' height='315' src='https://www.youtube.com/embed/o2TnHTUfp9Y' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></li>"+
+		"<li><iframe width='560' height='315' src='https://www.youtube.com/embed/ZRErx9AYxZc' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></li>"+
+		"<li><iframe width='560' height='315' src='https://www.youtube.com/embed/CqsNjPWC8XA' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></ul></li>"+
 		
 		"<ul><h4>ACTIVIDAD</h4><li><h5>1</h5><img src='resources/2/1/01.png'></li>"+
 		"<li><h5>2</h5><img src='resources/2/1/02.png'></li><li><h5>3</h5><img src='resources/2/1/03.png'></li>"+
@@ -230,8 +242,12 @@ function show(who)
 
 		//PARA LAS REFERENCIAS
 		references.innerHTML="<div class='top'><h2>Actividades y Ejemplos</h2></div>"+
-		"<ul><h4>EJEMPLOS</h4><li><h5>Diagramas en Funciones Vectoriales</h5><video src='resources/1/v.mp4' controls='controls'></video></li>"+
-		"<li><iframe width='560' height='315' src='https://www.youtube.com/embed/fQ-BPdkoSMw' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></li></ul>"+
+		"<ul><h4>EJEMPLOS</h4><li><h5>Reconociendo patrones de superficies</h5><iframe width='560' height='315' src='https://www.youtube.com/embed/DFJeh3QZt50' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></li>"+
+		"<li><iframe width='560' height='315' src='https://www.youtube.com/embed/aaxoJKHBhCs' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></li>"+
+		"<li><iframe width='560' height='315' src='https://www.youtube.com/embed/H3Ydr96kbUA' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></li>"+
+		"<li><iframe width='560' height='315' src='https://www.youtube.com/embed/q2iUO-Wgn6w' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></li>"+
+		"<li><iframe width='560' height='315' src='https://www.youtube.com/embed/fIqsglIFntI' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></li>"+
+		"<li><iframe width='560' height='315' src='https://www.youtube.com/embed/30yPzN3PkEE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></li></ul>"+
 		
 		"<ul><h4>ACTIVIDAD</h4><li><h5>1</h5><img src='resources/3/1/01.png'></li><li><h5>2</h5><img src='resources/3/1/02.png'>"+
 		"</li><li><h5>3</h5><img src='resources/3/1/03.png'></li><li><h5>4</h5><img src='resources/3/1/04.png'></li><li><h5>5</h5><img src='resources/3/1/05.png'></li>"+
@@ -296,8 +312,8 @@ function show(who)
 		
 		//PARA LAS REFERENCIAS
 		references.innerHTML="<div class='top'><h2>Actividades y Ejemplos</h2></div>"+
-		"<ul><h4>EJEMPLOS</h4><li><h5>Diagramas en Funciones Vectoriales</h5><video src='resources/1/v.mp4' controls='controls'></video></li>"+
-		"<li><iframe width='560' height='315' src='https://www.youtube.com/embed/fQ-BPdkoSMw' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></li></ul>"+
+		"<ul><h4>EJEMPLOS</h4><li><h5>Diagramas en Funciones Vectoriales</h5><iframe width='560' height='315' src='https://www.youtube.com/embed/uLGVVznAZhM' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></li>"+
+		"<li><iframe width='560' height='315' src='https://www.youtube.com/embed/b_Affw5ArMY' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></li></ul>"+
 		
 		"<ul><h4>ACTIVIDAD</h4><li><h5>1</h5><img src='resources/4/1/01.png'></li><li><h5>2</h5><img src='resources/4/1/02.png'>"+
 		"</li><li><h5>3</h5><img src='resources/4/1/03.png'></li><li><h5>4</h5><img src='resources/4/1/04a.png'><img src='resources/4/1/04b.png'></li>"+
